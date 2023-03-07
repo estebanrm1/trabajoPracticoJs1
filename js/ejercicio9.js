@@ -1,8 +1,8 @@
-const cadena = prompt('Escriba una frase')
+const cadena = prompt('Escriba una frase');
 
 
 const contarVocales = palabra => {
-   
+
     const vocales = "aáeéiíoóuú";
     let cantidadVocales = 0;
     for (const letra of palabra) {
